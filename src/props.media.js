@@ -12,10 +12,12 @@ export const CustomMedia = {
   "--highContrast": "(prefers-contrast: more)",
   "--lowContrast": "(prefers-contrast: less)",
 
+  "--forcedColors": "(forced-colors: active)",
+
   "--portrait": "(orientation: portrait)",
   "--landscape": "(orientation: landscape)",
 
-  "--HDcolor": "(dynamic-range: high)",
+  "--HDcolor": "(dynamic-range: high) or (color-gamut: p3)",
 
   "--touch": "(hover: none) and (pointer: coarse)",
   "--stylus": "(hover: none) and (pointer: fine)",
